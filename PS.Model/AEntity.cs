@@ -8,9 +8,6 @@ namespace PS.Model
     {
         public virtual TPrimaryKey Id { get; set; }
         public virtual bool IsActive { get; set; }
-        public virtual int Draw { get; set; }
-        public virtual int Start { get; set; }
-        public virtual int Length { get; set; } = 5;
 
     }
 }

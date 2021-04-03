@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using PS.Model.Entities.Carro;
 
 namespace PS.DataAccess
 {
@@ -30,6 +31,7 @@ namespace PS.DataAccess
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public virtual DbSet<WeatherForecast> WeatherForecast { get; set; }
+        public virtual DbSet<Carro> Carro { get; set; }
         
     }
 
