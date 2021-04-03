@@ -6,6 +6,6 @@ namespace PS.Service.Carro
 {
     public interface ICarroService
     {
-
+        List<Model.Entities.Carro.Carro> GetCarros();
     }
 }
